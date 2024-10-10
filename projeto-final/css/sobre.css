@@ -1,0 +1,10 @@
+.sobre{
+    width: 50%;
+    box-shadow: 1px 1px 10px rgba(17, 34, 102, 0.308);
+    height: 18rem;
+    border-radius: 1%;
+    padding: 1%;
+}
+.sobre p{
+    text-align: justify;
+}

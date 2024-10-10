@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relative.css">
+    <title>Relative Position</title>
+</head>
+
+<body>
+    <!--    Posição relativa                        -->
+    <!-- Elementos com position do tipo relative, podem ser direcionados com as propriedades "top,
+        right, bottom e left", sendo que o seu direcionemento é relativo ao lugar que ele se encontra. Ou seja,
+    nós direcionamos tais elementos apartir do local que ele se encontra. -->
+
+    <!-- Sendo que o padding e margin de um elemento com position relative considera os elementos ao 
+        seu arredor-->
+
+<!-- obs: a sua posição é respeitada por outros elementos -->
+
+    <div class="container"><!--elemento pai-->
+        <button class="bt1">Botão1</button>
+        <button class="bt2">Botão2</button>
+        <button class="bt3">Botão3</button>
+    </div>
+    <hr><br><br><br>
+
+
+
+
+    <!--  Posição absoluta                            -->
+    <!-- Elementos com position do tipo absolute, podem ser direcionados com as propriedades "top,
+        right, bottom e left", sendo que a seu direcionamento é relativo ao primeiro espaço do seu elemento pai. -->
+
+    <!-- Porém para que tal elemento com poition absolute sejá direcionada como se deseja(dentro do seu elemento pai), é necessário que o seu elemento pai tenha um position do tipo relative. Senão o elemento será direcionada absolutamente tendo em conta o elemento mais proximo com position relative que lhe contém.  -->
+
+    <!-- Os elementos com position absolute, os seus margin e padding não consideram os elementos aos seus arredores. -->
+
+<!-- obs: A sua posição não é respeitada por outros elementos -->
+    
+        <div class="container01"><!--elemento pai-->
+            <button class="bt1">Botão1</button>
+            <button class="bt2">Botão2</button>
+            <button class="bt3">Botão3</button>
+        </div>
+    <hr><br><br><br><br>
+    
+    
+
+
+    <!-- Position fixed -->
+    <!--Elementos com position do tipo fixed, podem ser direcionados com as propriedades "top,
+        right, bottom e left", sendo que a seu direcionamento é sempre relativo ao body.
+        
+        O position fixed tem uma particularidade, ele é fixo independentemente da rolagem da pagina.
+    Um exemplo prático são os icones de mensagem que flutuam no whatsaap e messenger.  
+
+    Os elementos com position fixed, os seus margin e padding não consideram os elementos aos seus arredores.-->
+    
+<!-- obs: A sua posição não é respeitada por outros elementos -->
+
+    
+    <div class="container02"><!--elemento pai-->
+        <button class="bt1">Botão1</button>
+        <button class="bt2">Botão2</button>
+        <button class="bt3">Botão3</button>
+    </div>
+    <hr><br><br><br><br>
+
+</body>
+
+</html>

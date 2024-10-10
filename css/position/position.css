@@ -1,0 +1,23 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+/*--------Os botões--------*/
+.bt1{
+    position: static;
+    background: red;
+    left: 25px;
+}
+.bt2{
+    position: static;
+    background: blue;
+    right: 45px;
+}
+.bt3{
+    position: static;/*por padrçao a sua pposição já é estático*/
+    background: yellow;
+    left: 10px;/*---Repara que a propriedade left não surge nenhun efeito porque o position é static---*/    
+}
+/*--------------------------*/

@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+body{
+    background: #1261;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    background: greenyellow;
+    width: 100%;
+    padding: 1.1rem;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 2px 1px 10px #000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px #000;
+}
+
+nav {
+    position: fixed;
+    right: 5%;
+    top: 13%;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: #ccc;
+    color: green;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0px 10px;
+    border-radius: 10%;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap;
+    width: 60%;
+    justify-content: space-around;
+    background: #fff;
+}
+main div{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    margin: 2%;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px #000;
+}
+.wapper{
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+    padding: 3px;
+    background: rgba(172, 255, 47, 0.85);
+    box-shadow: 0px 0px 0px transparent;
+}
+
+.lisPages{
+    margin-top: 4%;
+}
+
+aside{
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    right: 2%;
+    box-shadow: 1px 2px 5px green;
+    border-radius: 5%;
+    padding: 1%;
+    background: #fff;
+}
+aside h2,p{
+    margin-bottom: 6%;
+}
+
+footer{
+    margin-top: 10rem;
+    width: 100%;
+    background: rgb(13, 27, 41);
+    padding: 1%;
+    height: 15rem;
+}
+footer .sessao1{
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+footer .sessao1 span{
+    color: greenyellow;
+}
+footer p{
+    text-align: center;
+    line-height: 8rem;
+    color: aliceblue;
+}

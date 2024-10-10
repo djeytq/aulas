@@ -1,0 +1,87 @@
+.container {
+    width: 400px;
+    height: 150px;
+    border: 4px double rgb(0, 0, 0);
+    margin: auto;
+    padding: 0px;
+}
+
+.container .bt1 {
+    position: relative;
+    background: red;
+    /* left: 0px; */
+}
+
+.container .bt2 {
+    position: relative;
+    background: #00ff66;
+    /* top: 11px; */
+    /* left: 30px; */
+}
+
+.container .bt3 {
+    position: relative;
+    background: #1e00ff;
+    /* left: 10px; */
+}
+
+
+
+/*-------------------------Absolute----------------------------------*/
+.container01 {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    border: 4px double red;
+    margin: auto;
+    /* padding: 25px; */
+}
+
+.container01 .bt1 {
+    position: static;
+    background: red;
+    /* left: 0px; */
+    /* top: 0px; */
+    padding: 3px;
+}
+
+.container01 .bt2 {
+    position: relative;
+    background: #00ff66;
+    /* right: -10px; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.container01 .bt3 {
+    position: absolute;
+    background: #1e00ff;
+    left: 0px;
+}
+
+
+
+
+
+/*-------------------------fixed----------------------------------*/
+.container02 {
+    width: 400px;
+    height: 950px;
+    border: 4px double red;
+    margin: auto;
+}
+
+.container02 .bt1 {
+    position: relative;
+    background: red;
+}
+
+.container02 .bt2 {
+    position: static;/*Posição fixa e não respeitada*/
+    background: #00ff66;
+}
+
+.container02 .bt3 {
+    position: fixed;
+    background: #1e00ff;
+}

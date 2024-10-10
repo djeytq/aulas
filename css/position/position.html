@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+
+<body>
+    <!--         Position                                                   -->
+    <!--   A posição de qualquer elemento por padrão é estático(static)     -->
+    <!-- sendo assim a gente não pode DIRECIONAR tais elementos -->
+    <!-- Já os elementos que possuem outro tipo de posição como: relative,absolute e fixed,
+        esses sim podem ser direcionados com as propriedades left, right, bottom e top.
+        essas propriedade têm como parâremetro "medidas em px"(ex:10px) ou outras medidas -->
+
+        <!-- Um outro ponto muito importante, é que na posição estática todos elementos estão
+        em mesma camada, sem que nenhuma esteja acima ou abaixo da outra, pois é incomun isso 
+        acontecer quando os elementos têm uma posição estática(ou seja, não podem ser direcionados) -->
+
+        <!-- Por padrão o css reconhece que os elementos com position "relative, absolute
+        ou fixed estão acima da camada dos elementos com position "static", independentemente
+        de ordem de organização -->
+
+    <div class="container">
+        <sapn class="bt1">botao</sapn>
+        <sapn class="bt2">botao</sapn>
+        <sapn class="bt3">botao</sapn>
+    </div>
+
+</body>
+
+</html>

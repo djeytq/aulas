@@ -1,0 +1,29 @@
+.login{
+    box-shadow: 0pc 1px 10px #cccc;
+    border-radius: 2%;
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2%;
+    width: 100%;
+    height: 16rem;
+
+}
+label{
+    font-weight: 600;
+}
+input{
+    font-size: 18px;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    background: greenyellow;
+    border: 1px solid green;
+    padding: 6px;
+}

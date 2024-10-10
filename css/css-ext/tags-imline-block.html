@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block</title>
+</head>
+<body>
+        <!--  Tags inline Tags block -->
+
+<!-- As em tags em html por padrão elas têm um tipo específico de display(forma de
+    apresentação) que podem ser na verdade 3, são: inline, block e o inline-block. -->
+
+    <!-- Tags com display block  -->
+<!-- Ou ainda, tags com forma de apresentação block são aquelas que ocupam uma linha
+interia(na horizontal). Ou seja, esse tipo de tag mão admite outras tags a seguir 
+na mmesma linha. -->
+<!-- Como exemplo temos as tags h1,h2,h3,h4,h5,h6,div,p,aside,header,section,footer 
+e outras mais tags -->
+
+<hr>1.Tags block<hr> <!-- apenas para melhorar a estética-->
+
+<h1>a</h1> <!--vai ocupar a linha inteira -->
+<h2>b</h2> <!--vai ocupar a linha inteira -->
+<p>c</p> <!--vai ocupar a linha inteira -->
+<div>d</div> <!--vai ocupar a linha inteira -->
+
+
+
+
+<hr>2. Tags inline<hr> <!-- apenas para melhorar a estética-->
+
+    <!-- Tags com display inline -->
+<!-- Ou ainda, tags com forma de apresentação inline são aquelas que não ocupam uma
+linha interia, admitindo outras tags a seguir na mesma linha.   -->
+<!-- Como exemplo temos as tags a,span,input,label,button,strong,em,mark,small e 
+outras mais. -->
+
+<a href="">A </a> <!-- vai admite outras tags na mesma linha -->
+<span>B </span> <!-- vai admite outras tags na mesma linha -->
+<strong>C </strong> <!-- vai admite outras tags na mesma linha -->
+<label for="">D</label> <!-- vai admite outras tags na mesma linha -->
+<mark>E</mark> <!-- vai admite outras tags na mesma linha -->
+
+
+
+<hr>3.Terra a terra<hr> <!-- apenas para melhorar a estética-->
+
+<!-- De uma forma leiga, podemos dizer que tags block ou tags com display block ou
+ainda tags com apresenta block têm parágrafo invisível em  seu terminais ou nas pontas-->
+<!-- veja como vou adaptar uma tag inline pra tag block com aulio da tag p -->
+
+<p></p> <span>A</span> <p></p>
+<p></p> <span>B</span> <p></p>
+<!-- É deste jeito que podemos pensar sobre as tags block, e já as tags inline não
+têm parágrafos em seus terminais. -->
+
+<!-- Com o CSS nós poderemos mais pra frente adaptar tags inline pra tags block e
+ vice-versa de forma masi profissional-->
+
+
+
+ <hr>4.Verificando com CSS<hr> <!-- apenas para melhorar a estética-->
+
+ <!-- Umas das formas de visualizar os conceitos supracitados é usando a propriedade
+background-color do CSS nas tags -->
+<!-- Espera mano(a)! Isso já vai fazer sentido, tipo o background-color serve para
+pintar a cor do fundo da tag, entáo se a tag ocupa uma linha inteira(block), ela 
+pintará toda linha, se não, apenas vai pintar o espaço que a tag ocupa(inline).  -->
+
+<h3>Block, toda linha</h3>
+<em>inline, apenas espaço que ocupa</em> <em>admitindo outra tag na mesma linha</em>
+
+<style>
+    h3{
+        background-color: aquamarine;
+    }
+    em{
+        background-color: blueviolet;
+    }
+</style>
+<!-- O CSS interno pode ser aplicado em qualquer parte do arquivo html, porém 
+os programadores padronizaram a inserí-lo dentro da tag head  -->
+
+</body>
+</html>

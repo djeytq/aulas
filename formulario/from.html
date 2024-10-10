@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<fieldset>
+    <legend>
+        <h1>Formulario</h1>
+    </legend>
+    <form action="">
+        <label for="nome">Nome: </label><br>
+        <input type="text" id="nome" value="" placeholder="" required> <p></p>
+        <label for="idaed">idade: </label><br>
+        <input type="number" id="idaed" value="" placeholder="" required> <p></p>
+        <label for="cor">cor: </label><br>
+        <input type="color" id="cor" required><p></p>
+        <label for="data">Data: </label><br>
+        <input type="date" id="data" required><p></p>
+        <p>Qual a fruta preferida?</p>
+        <label for="banana">Banana</label>
+        <input type="radio" id="banana" name="fruta" value="banana"><br>
+        <label for="manga">Manga</label>
+        <input type="radio" checked id="manga" name="fruta" value="manga"><br>
+        <label for="uva">Uva</label>
+        <input type="radio" id="uva" name="fruta"><br>
+        <p></p>
+        <p>Clica nas cores que gostas</p>
+        <label for="azul">Azul</label>
+        <input type="checkbox" value="azul" name="cor" id='azul'>
+        <label for="branca">Branca</label>
+        <input type="checkbox" checked value="branca" name="cor" id="branca">
+        <label for="laranja">Laranja</label>
+        <input type="checkbox" value='laranja' name="cor" id="laranja">
+<p></p> <p></p>
+        <select name="pais" id="pais" required>
+            <option value="" disabled selected >Escolhe o teu pais</option>
+            <option value="angola">Angola</option>
+            <option value="brasil" selected>Brasil</option>
+            <option value="espanha">Espanha</option>
+            <option value="kongo">Kongo</option>
+        </select>
+
+
+        <input type="submit" value="enviar">
+    </form>
+</fieldset>
+
+    <fieldset>
+        <legend>Teste</legend>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non minus veniam vitae ex alias, labore harum error quaerat quo laudantium quos? Ullam blanditiis exercitationem fugiat perferendis nulla id neque voluptate?</p>
+    </fieldset>
+
+</body>
+</html>

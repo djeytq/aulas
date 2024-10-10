@@ -1,0 +1,12 @@
+.container{
+    width: 50%;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background: blueviolet;
+}
